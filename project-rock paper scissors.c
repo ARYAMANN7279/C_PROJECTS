@@ -77,7 +77,7 @@ int main() {
 
     if (strcmp(computer_choice, person) == 0) {
         printf("It's a tie, play again.\n");
-        printf("do you want to play again? (yes/no) ");
+        printf("Do you want to play again? (yes/no) ");
         scanf("%s",a);
     } else if ((strcmp(computer_choice, "rock") == 0 && strcmp(person, "paper") == 0) ||
                (strcmp(computer_choice, "paper") == 0 && strcmp(person, "scissors") == 0) ||
